@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.license      = { :type => 'Commercial', :text => 'Please refer to https://github.com/Appboy/appboy-ios-sdk/blob/master/LICENSE'}
   s.author       = { "Appboy" => "http://www.braze.com" }
   s.platform     = :ios
-  s.source       = { :http => 'https://github.com/akoller-vs/appboy-cocoapods-framework/blob/master/Appboy_iOS_SDK.framework.zip?raw=true' }
+  s.source       = { :http => 'https://github.com/Appboy/appboy-ios-sdk/releases/download/3.20.4/Appboy_iOS_SDK.framework.zip' }
   s.ios.deployment_target = '9.0'
-  s.vendored_frameworks = ['**/Appboy_iOS_SDK.framework']
+  s.vendored_frameworks = ['iOS/Appboy_iOS_SDK.framework', 'iOS/SDWebImage.framework']
 end
