@@ -8,5 +8,5 @@ Pod::Spec.new do |s|
   s.platform     = :ios
   s.source       = { :http => 'https://github.com/Appboy/appboy-ios-sdk/releases/download/3.20.4/Appboy_iOS_SDK.framework.zip' }
   s.ios.deployment_target = '9.0'
-  s.ios.vendored_frameworks = ['iOS/Appboy_iOS_SDK.framework', 'iOS/SDWebImage.framework']
+  s.preserve_paths = '*'
 end
