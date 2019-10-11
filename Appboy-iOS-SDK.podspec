@@ -15,5 +15,4 @@ Pod::Spec.new do |s|
 
   s.vendored_frameworks = ['iOS/Appboy_iOS_SDK.framework', 'iOS/SDWebImage.framework']
   s.public_header_files = 'Appboy_iOS_SDK.framework/Headers/*.h'
-
 end
